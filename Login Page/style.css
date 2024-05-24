@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Login\ bg.jpg);
+    background-size: cover;
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(62, 106, 113, 0.692);
+    box-shadow: 0 8px 32px 0 rgba(0, 221, 255, 0.438);
+    border-radius: 30px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.97);
+    letter-spacing: 1px;
+    opacity: 750%;
+}
+label{
+    font-size: 20px;
+    color: black;
+    margin-left: 5%;
+    opacity: 100%;
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    opacity: .8;
+}
+button{
+    width:50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: rgb(41, 66, 69);
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.97);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.97);
+    cursor: pointer;
+}
+a{
+    font-size: 100%;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+::placeholder {
+    color: rgba(15, 24, 28, 0.612);
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 1;
+}
